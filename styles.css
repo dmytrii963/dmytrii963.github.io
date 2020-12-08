@@ -1,0 +1,115 @@
+/*******************TAGS SELECTORS*******************/
+
+body{
+  background-color: #bbe1fa;
+  margin: 0;
+  font-size: 18px;
+}
+header {
+  padding: 10px;
+  display: flex;
+}
+main {
+  padding: 10px;
+}
+table {
+  margin: 10px 0;
+}
+a {
+  text-decoration: none;
+}
+nav, footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 50px;
+  background-color: #85c5f0;
+}
+footer {
+  justify-content: center;
+}
+nav li, footer li {
+  margin: 0 10px;
+  display: inline;
+}
+h2,h3,h4,h5,h6{
+  border-style: dotted none dotted none;
+  border-color: black;
+  border-width: 3px;
+  background-color: #bbe1fa;
+  color: green;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin: 20px auto;
+}
+
+/*******************CLASS SELECTORS*******************/
+
+.Myname{
+  color: blue;
+}
+.shrift{
+  font-family: Helvetica serif;
+}
+.paragraph{
+  margin: 20px 0;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  line-height: 1.5;
+  font-family: Helvetica, serif;
+}
+.name-and-desc {
+  margin-left: 20px;
+}
+.gallery {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.fixed {
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  width: 75px;
+  height: 75px;
+  background-color: #fff;
+}
+.fixed a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 75px;
+  font-size: 50px;
+  text-align: center;
+}
+
+/*******************ID SELECTORS*******************/
+
+#educ {
+  color: orange;
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+
+/*******************PSEUDO-CLASESS*******************/
+
+
+img:hover{
+  background-color: blue;
+}
+
+h1:hover{
+  background-color: purple;
+}
+
+img:hover {
+  cursor: pointer;
+}
