@@ -1,0 +1,26 @@
+/*STYLE BY ID*/
+
+#myCarousel {
+  height: 30vh;
+  width: 30vw;
+  min-width: 600px;
+}
+
+#myCarousel img {
+  height: 30vh;
+  width: auto;
+}
+
+#myCarousel p,
+#myCarousel h5 {
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 600px){
+  #myCarousel {
+    width: 100vw;
+  }
+}

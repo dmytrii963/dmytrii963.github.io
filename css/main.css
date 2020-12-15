@@ -1,0 +1,56 @@
+/*STYLE BY TAGNAME*/
+
+body, header {
+  margin: 0;
+}
+
+header {
+  border: 1px solid #000;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+main {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+}
+
+/*STYLE BY CLASSNAME*/
+
+.nav {
+  background-color: rgb(76, 109, 201);
+}
+
+.nav li a {
+  color: #000;
+}
+
+.nav-link.active {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+/*@MEDIA QUERIES*/
+
+@media (max-width: 1000px) {
+  main {
+    grid-template-columns: auto auto;
+    grid-gap: 3vh;
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 600px){
+  main {
+    grid-template-columns: auto;
+  }
+}
